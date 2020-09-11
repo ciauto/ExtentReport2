@@ -6,16 +6,4 @@
       <class name="mercuryTour.MercuryTour"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="mercuryTour.MercuryTour">
-        <methods>
-          <include name="verifyPageTitle"/>
-          <include name="checkResults"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- mercuryTour.MercuryTour -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -39,6 +39,12 @@ public class MercuryTour2 {
 		report.setSystemInfo("Environment", "QA-AUT");
 		report.setSystemInfo("Java", "8.0 version");
 	}
+	
+	@BeforeMethod
+	public void register(Method method) {
+		String testName = method.getName();
+		test = report.createTest(testName);
+	}
 
 	@Test(priority = 0)
 	public void openBrowser() {
@@ -67,11 +73,7 @@ public class MercuryTour2 {
 		driver.close();
 	}
 
-	@BeforeMethod
-	public void register(Method method) {
-		String testName = method.getName();
-		test = report.createTest(testName);
-	}
+
 
 	@AfterMethod
 	public void checkResults(ITestResult testResults) {

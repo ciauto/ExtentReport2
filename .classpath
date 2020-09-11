@@ -14,7 +14,6 @@
 	<classpathentry kind="lib" path="C:/Jar files/selenium-java-3.11.0/libs/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="C:/Jar files/selenium-java-3.11.0/libs/okhttp-3.9.1.jar"/>
 	<classpathentry kind="lib" path="C:/Jar files/selenium-java-3.11.0/libs/okio-1.13.0.jar"/>
-	<classpathentry kind="lib" path="C:/Jar files/extentreports-java-3.1.5/extentreports-java-3.1.5/extentreports-3.1.5.jar"/>
 	<classpathentry kind="lib" path="C:/Jar files/extentreports-java-3.1.5/extentreports-java-3.1.5/lib/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="C:/Jar files/extentreports-java-3.1.5/extentreports-java-3.1.5/lib/bson-3.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Jar files/extentreports-java-3.1.5/extentreports-java-3.1.5/lib/commons-codec-1.9.jar"/>
@@ -29,5 +28,19 @@
 	<classpathentry kind="lib" path="C:/Jar files/extentreports-java-3.1.5/extentreports-java-3.1.5/lib/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Jar files/extentreports-java-3.1.5/extentreports-java-3.1.5/lib/mongodb-driver-core-3.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Jar files/extentreports-java-3.1.5/extentreports-java-3.1.5/lib/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/extentreports-3.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Jar files/Extent Report/extentreports-java-3.0.6/lib/testng-6.9.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

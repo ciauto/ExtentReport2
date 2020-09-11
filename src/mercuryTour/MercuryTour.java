@@ -8,7 +8,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -29,13 +28,15 @@ public class MercuryTour {
 	public void setUp() {
 		htmlReports = new ExtentHtmlReporter(fileName);
 		extent = new ExtentReports();
+		
 		extent.attachReporter(htmlReports);
-		htmlReports.config().setReportName("Regression Testing");
-		htmlReports.config().setTheme(Theme.STANDARD);
+		htmlReports.config().setReportName("REGRESSION TESTING");
+		htmlReports.config().setTheme(Theme.DARK);
 		htmlReports.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 		extent.setSystemInfo("OS", "Windows 10");
 		extent.setSystemInfo("Environment", "QA-AUT");
-		extent.setSystemInfo("Java", "8.0 version");		
+		extent.setSystemInfo("Java", "8.0 version");
+		extent.setSystemInfo("Selenium", "3.151.2");
 	}
 
 	@Test(priority = 0)
@@ -50,7 +51,7 @@ public class MercuryTour {
 	@Test(priority = 1)
 	public void OpenAutUrl() {
 		test = extent.createTest("TC_2 = Open AUT url");
-		baseurl = "http://newtours.demoaut.com/";
+		baseurl = "http://zero.webappsecurity.com/";
 		driver.get(baseurl);
 		test.log(Status.PASS, "Application under Test url is open");
 	}
@@ -59,7 +60,7 @@ public class MercuryTour {
 	public void verifyPageTitle() {
 		test = extent.createTest("TC_3 = verify proper url is open or not");
 		String actualPageTitle = driver.getTitle();
-		Assert.assertTrue(actualPageTitle.equals("Welcome: Mercury Tour"));
+		Assert.assertTrue(actualPageTitle.equals("Zero - Personal Banking - Loans - Credit Cards"));
 	}
 
 	@AfterClass

@@ -14,6 +14,7 @@ public class TC001 {
 	
 	WebDriver driver;
 	String baseURL="http://newtours.demoaut.com/";
+	
 	@BeforeMethod
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Naresh\\oxygen-workspace\\mercuryTour\\resources\\chromedriver.exe");
@@ -29,7 +30,7 @@ public class TC001 {
 		driver.findElement(By.name("userName")).sendKeys("tutorial");
 		driver.findElement(By.name("password")).sendKeys("tutorial");
 		driver.findElement(By.name("login")).click();
-		String expectedTitle="Find a Flight: Mercury Tours:";
+		String expectedTitle="Find a Flight: Mercury Tours";
 		String actualTitle=driver.getTitle();
 		Assert.assertEquals(expectedTitle, actualTitle);
 		
